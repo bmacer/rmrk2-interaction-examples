@@ -1,0 +1,82 @@
+{
+    "nfts": {
+        "5-ALICES_COLLECTION-ALICES_NFT-001": {
+            "changes": [
+                {
+                    "field": "owner",
+                    "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "new": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 8,
+                    "opType": "SEND"
+                }
+            ],
+            "children": [
+                {
+                    "id": "11-ALICES_COLLECTION-ALICES_SECOND_NFT-002",
+                    "pending": true,
+                    "equipped": ""
+                }
+            ],
+            "resources": [],
+            "block": 5,
+            "collection": "ALICES_COLLECTION",
+            "symbol": "ALICES_NFT",
+            "transferable": 1,
+            "sn": "001",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [],
+            "owner": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+            "rootowner": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": false,
+            "id": "5-ALICES_COLLECTION-ALICES_NFT-001"
+        },
+        "11-ALICES_COLLECTION-ALICES_SECOND_NFT-002": {
+            "changes": [
+                {
+                    "field": "owner",
+                    "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "new": "5-ALICES_COLLECTION-ALICES_NFT-001",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 14,
+                    "opType": "SEND"
+                }
+            ],
+            "children": [],
+            "resources": [],
+            "block": 11,
+            "collection": "ALICES_COLLECTION",
+            "symbol": "ALICES_SECOND_NFT",
+            "transferable": 1,
+            "sn": "002",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [],
+            "owner": "5-ALICES_COLLECTION-ALICES_NFT-001",
+            "rootowner": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": true,
+            "id": "11-ALICES_COLLECTION-ALICES_SECOND_NFT-002"
+        }
+    },
+    "collections": {
+        "ALICES_COLLECTION": {
+            "changes": [],
+            "block": 2,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "ALICES_COLLECTION",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {},
+    "invalid": [],
+    "lastBlock": 33
+}

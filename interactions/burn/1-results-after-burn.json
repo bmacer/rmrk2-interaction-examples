@@ -1,0 +1,55 @@
+{
+    "nfts": {
+        "7-ALICES_COLLECTION-ALICES_NFT-002": {
+            "changes": [
+                {
+                    "field": "burned",
+                    "old": "",
+                    "new": "true",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 29,
+                    "opType": "BURN"
+                },
+                {
+                    "field": "forsale",
+                    "old": "0",
+                    "new": "0",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 29,
+                    "opType": "BURN"
+                }
+            ],
+            "children": [],
+            "resources": [],
+            "block": 7,
+            "collection": "ALICES_COLLECTION",
+            "symbol": "ALICES_NFT",
+            "transferable": 1,
+            "sn": "002",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [],
+            "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "true",
+            "properties": {},
+            "pending": false,
+            "id": "7-ALICES_COLLECTION-ALICES_NFT-002"
+        }
+    },
+    "collections": {
+        "ALICES_COLLECTION": {
+            "changes": [],
+            "block": 3,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "ALICES_COLLECTION",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {},
+    "invalid": [],
+    "lastBlock": 31
+}

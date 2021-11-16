@@ -1,0 +1,17 @@
+{
+    "nfts": {},
+    "collections": {
+        "ALICES_COLLECTION": {
+            "changes": [],
+            "block": 2,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "ALICES_COLLECTION",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {},
+    "invalid": [],
+    "lastBlock": 6
+}

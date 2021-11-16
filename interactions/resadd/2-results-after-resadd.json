@@ -1,0 +1,89 @@
+{
+    "nfts": {
+        "5-ALICES_COLLECTION-ALICES_NFT-001": {
+            "changes": [],
+            "children": [],
+            "resources": [
+                {
+                    "pending": false,
+                    "id": "facial-features",
+                    "base": "base-8-alicesBase",
+                    "parts": [
+                        "circle-head",
+                        "footwear-slot"
+                    ]
+                }
+            ],
+            "block": 5,
+            "collection": "ALICES_COLLECTION",
+            "symbol": "ALICES_NFT",
+            "transferable": 1,
+            "sn": "001",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [
+                "facial-features"
+            ],
+            "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": false,
+            "id": "5-ALICES_COLLECTION-ALICES_NFT-001"
+        }
+    },
+    "collections": {
+        "ALICES_COLLECTION": {
+            "changes": [],
+            "block": 2,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "ALICES_COLLECTION",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {
+        "base-8-alicesBase": {
+            "changes": [],
+            "block": 8,
+            "symbol": "alicesBase",
+            "type": "svg",
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "parts": [
+                {
+                    "type": "fixed",
+                    "id": "circle-head",
+                    "src": "https://path/to/fixed_object_1.svg",
+                    "z": 0
+                },
+                {
+                    "type": "fixed",
+                    "id": "triangle-head",
+                    "src": "https://path/to/fixed_object_2.svg",
+                    "z": 0
+                },
+                {
+                    "type": "slot",
+                    "id": "headware",
+                    "equippable": [
+                        "headware-collection"
+                    ],
+                    "z": 1
+                },
+                {
+                    "type": "slot",
+                    "id": "footwear",
+                    "equippable": [
+                        "footwear-collection"
+                    ],
+                    "z": 2
+                }
+            ],
+            "id": "base-8-alicesBase"
+        }
+    },
+    "invalid": [],
+    "lastBlock": 12
+}

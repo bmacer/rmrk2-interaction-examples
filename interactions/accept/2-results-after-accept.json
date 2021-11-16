@@ -1,0 +1,54 @@
+{
+    "nfts": {
+        "6-ALICES_COLLECTION-BOBS_NFT-001": {
+            "changes": [
+                {
+                    "field": "owner",
+                    "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "new": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 10,
+                    "opType": "SEND"
+                }
+            ],
+            "children": [],
+            "resources": [
+                {
+                    "pending": false,
+                    "id": "bobs_resource_id"
+                }
+            ],
+            "block": 6,
+            "collection": "ALICES_COLLECTION",
+            "symbol": "BOBS_NFT",
+            "transferable": 1,
+            "sn": "001",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [
+                "bobs_resource_id"
+            ],
+            "owner": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+            "rootowner": "FoQJpPyadYccjavVdTWxpxU7rUEaYhfLCPwXgkfD6Zat9QP",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": false,
+            "id": "6-ALICES_COLLECTION-BOBS_NFT-001"
+        }
+    },
+    "collections": {
+        "ALICES_COLLECTION": {
+            "changes": [],
+            "block": 2,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "ALICES_COLLECTION",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {},
+    "invalid": [],
+    "lastBlock": 17
+}

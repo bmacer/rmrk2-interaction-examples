@@ -1,0 +1,47 @@
+{
+    "nfts": {},
+    "collections": {},
+    "bases": {
+        "base-2-alicesBase": {
+            "changes": [],
+            "block": 2,
+            "symbol": "alicesBase",
+            "type": "svg",
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "parts": [
+                {
+                    "type": "fixed",
+                    "id": "fixed_object_1",
+                    "src": "https://path/to/fixed_object_1.svg",
+                    "z": 0
+                },
+                {
+                    "type": "fixed",
+                    "id": "fixed_object-2",
+                    "src": "https://path/to/fixed_object_2.svg",
+                    "z": 0
+                },
+                {
+                    "type": "slot",
+                    "id": "slot_object_1",
+                    "equippable": [
+                        "collection_1",
+                        "collection_2"
+                    ],
+                    "z": 1
+                },
+                {
+                    "type": "slot",
+                    "id": "slot_object_2",
+                    "equippable": [
+                        "collection_3"
+                    ],
+                    "z": 2
+                }
+            ],
+            "id": "base-2-alicesBase"
+        }
+    },
+    "invalid": [],
+    "lastBlock": 13
+}
