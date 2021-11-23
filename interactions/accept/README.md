@@ -10,5 +10,5 @@ Testing ACCEPT of resources
 1. Alice CREATEs collection
 2. Alice MINTs NFT
 3. Alice SENDs NFT to Bob
-4. Bob RESADDs resource to NFT
+4. Alice RESADDs resource to NFT
 5. Bob ACCEPTs the pending RESADD

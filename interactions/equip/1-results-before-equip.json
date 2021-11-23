@@ -1,0 +1,132 @@
+{
+    "nfts": {
+        "13-PEOPLE-LITTLE_ALICE-001": {
+            "changes": [],
+            "children": [
+                {
+                    "id": "19-HEADWARE-BEANIE-001",
+                    "pending": false,
+                    "equipped": ""
+                }
+            ],
+            "resources": [
+                {
+                    "pending": false,
+                    "id": "facial-features",
+                    "base": "base-2-alicesBase",
+                    "parts": [
+                        "round-face"
+                    ]
+                }
+            ],
+            "block": 13,
+            "collection": "PEOPLE",
+            "symbol": "LITTLE_ALICE",
+            "transferable": 1,
+            "sn": "001",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [
+                "facial-features"
+            ],
+            "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": false,
+            "id": "13-PEOPLE-LITTLE_ALICE-001"
+        },
+        "19-HEADWARE-BEANIE-001": {
+            "changes": [
+                {
+                    "field": "owner",
+                    "old": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "new": "13-PEOPLE-LITTLE_ALICE-001",
+                    "caller": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+                    "block": 25,
+                    "opType": "SEND"
+                }
+            ],
+            "children": [],
+            "resources": [
+                {
+                    "pending": false,
+                    "id": "purple-hat",
+                    "slot": "base-2-alicesBase.on-my-head"
+                }
+            ],
+            "block": 19,
+            "collection": "HEADWARE",
+            "symbol": "BEANIE",
+            "transferable": 1,
+            "sn": "001",
+            "metadata": "https://location.of.nft.metadata",
+            "priority": [
+                "purple-hat"
+            ],
+            "owner": "13-PEOPLE-LITTLE_ALICE-001",
+            "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "reactions": {},
+            "forsale": "0",
+            "burned": "",
+            "properties": {},
+            "pending": false,
+            "id": "19-HEADWARE-BEANIE-001"
+        }
+    },
+    "collections": {
+        "PEOPLE": {
+            "changes": [],
+            "block": 6,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "PEOPLE",
+            "metadata": "https://collection_metadata_cid"
+        },
+        "HEADWARE": {
+            "changes": [],
+            "block": 10,
+            "max": 5000,
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "symbol": "SYMBOL",
+            "id": "HEADWARE",
+            "metadata": "https://collection_metadata_cid"
+        }
+    },
+    "bases": {
+        "base-2-alicesBase": {
+            "changes": [],
+            "block": 2,
+            "symbol": "alicesBase",
+            "type": "svg",
+            "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
+            "parts": [
+                {
+                    "type": "fixed",
+                    "id": "round-face",
+                    "src": "https://path/to/fixed_object_1.svg",
+                    "z": 0
+                },
+                {
+                    "type": "fixed",
+                    "id": "square-face",
+                    "src": "https://path/to/fixed_object_2.svg",
+                    "z": 0
+                },
+                {
+                    "type": "slot",
+                    "id": "on-my-head",
+                    "equippable": [
+                        "HEADWARE"
+                    ],
+                    "z": 1
+                }
+            ],
+            "id": "base-2-alicesBase"
+        }
+    },
+    "invalid": [],
+    "lastBlock": 33
+}

@@ -9,7 +9,6 @@ const wsProvider = new WsProvider('ws://127.0.0.1:9944');
 import { IBasePart } from "rmrk-tools/dist/classes/base";
 
 export const getKeys = (): KeyringPair[] => {
-
     const k = [];
     const keyring = new Keyring({ type: "sr25519" });
     const alice = keyring.addFromUri("//Alice");

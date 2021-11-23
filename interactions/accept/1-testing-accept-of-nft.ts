@@ -31,8 +31,10 @@ const aliceCreatesACollection = async () => {
             "https://collection_metadata_cid" // metadata
         );
 
+        const create_remark = collection.create();
+
         const { block } = await sendAndFinalize(
-            api.tx.system.remark(collection.create()),
+            api.tx.system.remark(create_remark),
             keys[0]
         );
 

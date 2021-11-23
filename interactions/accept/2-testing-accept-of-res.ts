@@ -96,7 +96,7 @@ const aliceSendsNftToBob = async (alices_nft_block_number: number) => {
     }
 }
 
-const bobAddsResourceToNft = async (bobs_nft_block_number: number) => {
+const aliceAddsResourceToNft = async (bobs_nft_block_number: number) => {
     console.log("Step 4: Bob RESADDs resource to NFT");
     try {
         const api = await ApiPromise.create({ provider: wsProvider });
@@ -155,7 +155,7 @@ const run = async () => {
     await aliceCreatesACollection();
     const bobs_nft_block_number = await aliceMintsAnNft();
     await aliceSendsNftToBob(bobs_nft_block_number);
-    await bobAddsResourceToNft(bobs_nft_block_number);
+    await aliceAddsResourceToNft(bobs_nft_block_number);
     await bobAcceptsResadd(bobs_nft_block_number);
     process.exit(0);
 }

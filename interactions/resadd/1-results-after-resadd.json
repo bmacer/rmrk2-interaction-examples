@@ -3,14 +3,21 @@
         "6-ALICES_COLLECTION-ALICES_NFT-002": {
             "changes": [],
             "children": [],
-            "resources": [],
+            "resources": [
+                {
+                    "pending": false,
+                    "id": "alices_resource_id"
+                }
+            ],
             "block": 6,
             "collection": "ALICES_COLLECTION",
             "symbol": "ALICES_NFT",
             "transferable": 1,
             "sn": "002",
             "metadata": "https://location.of.nft.metadata",
-            "priority": [],
+            "priority": [
+                "alices_resource_id"
+            ],
             "owner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
             "rootowner": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
             "reactions": {},
@@ -24,7 +31,7 @@
     "collections": {
         "ALICES_COLLECTION": {
             "changes": [],
-            "block": 2,
+            "block": 3,
             "max": 5000,
             "issuer": "HNZata7iMYWmk5RvZRTiAsSDhV8366zq2YGb3tLH5Upf74F",
             "symbol": "SYMBOL",
@@ -34,5 +41,5 @@
     },
     "bases": {},
     "invalid": [],
-    "lastBlock": 11
+    "lastBlock": 36
 }

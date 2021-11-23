@@ -4,6 +4,34 @@ Show basic purchase:
 - Alice LISTs NFT
 - Bob BUYs NFT
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TODO show buying an NFT that owns another NFT
 - Alice creates collection
 - Alice creates NFT1

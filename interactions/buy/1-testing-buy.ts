@@ -11,8 +11,10 @@ export const getKeys = (): KeyringPair[] => {
     const keyring = new Keyring({ type: "sr25519" });
     const alice = keyring.addFromUri("//Alice");
     const bob = keyring.addFromUri("//Bob");
+    const c = keyring.addFromAddress("15oF4uVJwmo4TdGW7VfQxNLavjCXviqxT9S1MgbjMNHr6Sp5");
     k.push(alice);
     k.push(bob);
+    k.push(c);
     return k;
 };
 
@@ -21,6 +23,18 @@ const aliceCreatesACollection = async () => {
     try {
         const api = await ApiPromise.create({ provider: wsProvider });
         const keys = getKeys();
+
+        console.log(keys);
+
+        console.log("Alice keys[0].address: ", keys[0].address);
+        console.log("Alice encode v2: ", encodeAddress(keys[0].address, 2));
+        console.log("Alice keys[0].address: ", keys[2].address);
+        console.log("Alice encode v2: ", encodeAddress(keys[2].address, 2));
+
+        console.log("Bob keys[0].address: ", keys[1].address);
+        console.log("Bob encode v2: ", encodeAddress(keys[1].address, 2));
+
+
 
         const collection = new Collection(
             0, // block
@@ -35,7 +49,7 @@ const aliceCreatesACollection = async () => {
 
         const { block } = await sendAndFinalize(
             api.tx.system.remark(remark_collection),
-            keys[0]
+            keys[0],
         );
         console.log("CREATE block: ", block);
 
