@@ -5,9 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "fetch": "rm z-before.json && rmrk-tools-fetch --append z-before.json",
-    "consolidate": "rmrk-tools-consolidate --json z-before.json && mv consolidated-from-z-before.json z-after.json",
-    "b": "yarn fetch && yarn consolidate"
+    "fetch": "rmrk-tools-fetch",
+    "consolidate": "rmrk-tools-consolidate"
   },
   "dependencies": {
     "@pinata/sdk": "^1.1.23",
